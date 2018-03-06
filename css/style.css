@@ -40,7 +40,59 @@
     font-size: 3vh;
 }
 
+.yen, .dpc {
+    margin-top: 2vh;
+    color: #C9C19F;
+    font-size: 3vh;
+}
 
+.powerUp {
+    margin-top: 2vh;
+    color: #C9C19F;
+    font-size: 2.5vh;
+}
+
+.yenNeeded {
+    color: #F3F3F3;
+    font-size: 2.8vh;
+}
+
+.yenNb {
+    color: #F3F3F3;
+}
+
+.actualDpc {
+    color: #93032E;
+}
+
+
+.yen_btn {
+  background: #C9C19F;
+  background-image: -webkit-linear-gradient(top, #C9C19F, #e0ddd3);
+  background-image: -moz-linear-gradient(top, #C9C19F, #e0ddd3);
+  background-image: -ms-linear-gradient(top, #C9C19F, #e0ddd3);
+  background-image: -o-linear-gradient(top, #C9C19F, #e0ddd3);
+  background-image: linear-gradient(to bottom, #C9C19F, #e0ddd3);
+  -webkit-border-radius: 31;
+  -moz-border-radius: 31;
+  border-radius: 31px;
+  color: #93032E;
+  font-size: 17px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.yen_btn:hover {
+  background: #e0ddd3;
+  background-image: -webkit-linear-gradient(top, #e0ddd3, #C9C19F);
+  background-image: -moz-linear-gradient(top, #e0ddd3, #C9C19F);
+  background-image: -ms-linear-gradient(top, #e0ddd3, #C9C19F);
+  background-image: -o-linear-gradient(top, #e0ddd3, #C9C19F);
+  background-image: linear-gradient(to bottom, #e0ddd3, #C9C19F);
+  text-decoration: none;
+}
+
+button:focus {outline:0;}
 
 
 
