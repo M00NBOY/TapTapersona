@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "undertale";
+    src: url("../font/DTM-Mono.otf");
+}
+
+
+.body{
+    background-color: #191919;
+    font-family: "undertale";
+}
+
+.ennemieContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.ennemieImg {
+    height: 50vh;
+    margin-bottom: 2vh;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.containerHp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valueHp {
+    color: #C9C19F;
+    font-size: 3vh;
+}
+
+
+
+
+
+.ennemieHp[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 30vh;
+  height: 2.5vh;
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+}
+
+.ennemieHp[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.ennemieHp[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg,
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top,
+	                           rgba(255, 255, 255, .25),
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #EDF7B5, #C9C19F);
+
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
